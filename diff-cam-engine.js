@@ -268,3 +268,10 @@ var DiffCamEngine = (function() {
 		stop: stop
 	};
 })();
+
+
+if (module && module.exports) {
+	module.exports = DiffCamEngine;
+} else {
+	window.DiffCamEngine = DiffCamEngine;
+}
